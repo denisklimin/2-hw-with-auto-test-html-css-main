@@ -46,7 +46,7 @@ header span {
 }
 
 .main-image {
-    width: 715px;
+    max-width: 715px;
 }
 
 
@@ -85,12 +85,12 @@ select {
     line-height: 19.36px;
     text-align: left;
     list-style-image: url(./assets/images/solar_map-arrow-up-bold.svg);
-    margin-left: 20px;
+    padding: 0 20px;
 }
 
 .books-list {
     list-style-type: decimal;
-    margin-left: 20px;
+    padding: 0 20px;
     font-size: 16px;
     font-weight: 400;
     line-height: 19.36px;
@@ -141,7 +141,7 @@ table {
 
 th, td {
     border: 1px solid #95A1BB;
-    padding: 12px 16px;
+    padding: 12px 15px;
     text-align: center;
     font-size: 14px;
     line-height: 16.94px;
@@ -152,6 +152,7 @@ th, td {
     color: #303030;
     text-align: left;
     font-weight: 400;
+    font-size: 14px;
 }
 
 footer {
