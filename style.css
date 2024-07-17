@@ -137,22 +137,22 @@ select {
 
 table {
     border-collapse: collapse;
+    font-size: 14px;
 }
 
 th, td {
     border: 1px solid #95A1BB;
     padding: 12px 15px;
     text-align: left;
-    font-size: 14px;
     line-height: 16.94px;
     font-weight: 700;
 }
 
-/* .gray {
+.gray {
     color: #303030;
     text-align: left;
     font-weight: 400;
-} */
+}
 
 footer {
     background-color: #A3A7FF4D;
